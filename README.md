@@ -1,5 +1,5 @@
 # static-html-skeleton
-Skeleton project of static Javascript/HTML/SASS enforce with linter & performance aware.
+Skeleton project of static Javascript/HTML/SASS enforced with linters & performance aware.
 
 ### What included
 - ESlint for javscript
@@ -21,10 +21,16 @@ npm install
 npm run start:dev
 ```
 
+Then go to your favourite and navigate to `http://localhost:8080`
+
+**port might be changed, please check in `http-server` output**
+
 ## Building
 ```bash
 npm run build:prod
 ```
+
+Built files will be in **`dist-prod`** folder
 
 ## Testing
 ```bash
