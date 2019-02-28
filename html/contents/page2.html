@@ -1,0 +1,15 @@
+<h1 class="app--title mb-4">Page 2</h1>
+
+<div>
+    <button type="button" id="app--previous-button" class="btn btn-danger">Previous</button>
+</div>
+
+<!-- htmllint ignore -->
+<script type="text/javascript">
+    $(document).on(app.event.afterGetContent, function() {
+        $('#app--previous-button').on('click.app', function() {
+            app.page.navigateToPreviousPage();
+        });
+    });
+</script>
+<!-- htmllint unignore -->

@@ -1,0 +1,19 @@
+$primary-color: #0000FF;
+$white: #FFFFFF;
+$black: #000000;
+$grey10: #F0F0F0;
+$grey20: #D5D5D5;
+$grey40: #9B9B9B;
+$grey50: #737373;
+$grey60: #555555;
+$grey70: #4A4A4A;
+
+$content-width: 750px;
+
+$font-size-base: 14px;
+$font-size-s: round($font-size-base * 0.7); // 10px
+$font-size-m: $font-size-base;
+$font-size-l: round($font-size-base * 1.15); // 16px
+$font-size-xl: round($font-size-base * 1.4); // 20px
+$font-size-xxl: round($font-size-base * 1.7); // 24px
+$font-size-xxxl: round($font-size-base * 2.15); // 30px

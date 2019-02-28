@@ -1,0 +1,17 @@
+{
+    "id-class-style": false,
+    "indent-style": "spaces",
+    "indent-width": 4,
+    "tag-bans": [],
+    "label-req-for": false,
+    "attr-req-value": false,
+    "img-req-src": false,
+    "id-class-no-ad": false,
+    "attr-quote-style": "double",
+    "class-no-dup": true,
+    "id-no-dup": true,
+    "indent-delta": true,
+    "line-no-trailing-whitespace": true,
+    "tag-name-match": true,
+    "raw-ignore-regex": "/<!-- htmllint ignore -->[^]*?<!-- htmllint unignore -->/"
+}

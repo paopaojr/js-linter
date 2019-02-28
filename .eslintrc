@@ -1,0 +1,29 @@
+{
+    "plugins": [
+        "html"
+    ],
+    "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"],
+        "no-debugger": ["error"],
+        "no-dupe-keys": ["error"],
+        "no-dupe-args": ["error"],
+        "no-extra-semi": ["error"],
+        "no-irregular-whitespace": ["error"],
+        "no-unreachable": ["error"],
+        "indent": ["error", 4],
+        "no-trailing-spaces": ["error"],
+        "space-before-function-paren": ["error", "never"],
+        "curly": ["error", "all"],
+        "eqeqeq": ["error"],
+        "dot-notation": ["error"],
+        "no-else-return": ["error"],
+        "no-eval": ["error"],
+        "array-bracket-newline": ["error"],
+        "camelcase": ["error"],
+        "comma-spacing": ["error"],
+        "key-spacing": ["error"],
+        "keyword-spacing": ["error"],
+        "max-params": ["error", 3]
+    }
+}

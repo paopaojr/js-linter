@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JS Lint App</title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" media="none" onload="if(media!='all')media='all'">
+</head>
+<body>
+<div class="app container">
+    <div class="app--header">
+        <div class="app--banner">
+            <img
+                class="lazyload app--banner-image"
+                data-srcset="
+                    images/chick.jpg 3x,
+                    images/chick.jpg 2x,
+                    images/chick.jpg 1x"
+                data-src="images/chick.jpg"
+                data-sizes="auto"
+                alt="chick.jpg"
+            />
+        </div>
+    </div>
+    <div class="app--content">
+        <div id="app--content" class="app--content-inner"></div>
+    </div>
+</div>
+
+${require('./partials/jquery.selector.html')}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.5/lazysizes.min.js"></script>
+<script src="bundle.js"></script>
+
+</body>
+</html>
