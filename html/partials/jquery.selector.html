@@ -1,0 +1,16 @@
+<div id="selector-template" hidden>
+    <div class="selector-template row">
+        {{#data}}
+            <div class="selector-template--col col-sm-{{colLength}}">
+                <div class="selector-template--col-inner" data-value="{{value}}">
+                    <p class="selector-template--type">
+                        {{index}} <i class="fas fa-check-circle float-right"></i>
+                    </p>
+                    <p class="selector-template--title">{{title}}</p>
+                    <p class="selector-template--description">{{description}}</p>
+                </div>
+            </div>
+        {{/data}}
+        <input type="text" class="selector-template--value d-none" name="{{fieldName}}">
+    </div>
+</div>

@@ -1,0 +1,40 @@
+<h1 class="app--title mb-4">Page 1</h1>
+
+<div>
+    <div id="app--selector" class="mb-4"></div>
+    <button type="button" id="app--next-button" class="btn btn-primary">Next</button>
+</div>
+
+<!-- htmllint ignore -->
+<script type="text/javascript">
+    $(document).on(app.event.afterGetContent, function() {
+        $('#app--next-button').on('click.app', function() {
+            app.page.navigateToNextPage();
+        });
+
+        var $selector = $('#app--selector').initSelector({
+            defaultSelect: 1,
+            data: {
+                data: [
+                    {
+                        title: 'Title 1',
+                        value: '15',
+                        description: 'Description 1',
+                    },
+                    {
+                        title: 'Title 2',
+                        value: '20',
+                        description: 'Description 2',
+                    },
+                    {
+                        title: 'Title 3',
+                        value: '25',
+                        description: 'Description 3',
+                    },
+                ],
+                fieldName: 'selector',
+            },
+        });
+    });
+</script>
+<!-- htmllint unignore -->

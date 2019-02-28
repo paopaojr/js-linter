@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>App Partials Test</title>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.1.css">
+    <style type="text/css">
+        #app--test-container {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <div id="app--test-container">
+        <div id="app--selector"></div>
+    </div>
+    <div id="app--test-template"></div>
+    <script src="https://code.jquery.com/qunit/qunit-2.9.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>
+    <!--
+        Phantomjs not support natively
+        see: https://stackoverflow.com/questions/47011686/cant-find-variable-promise-in-phantomjs
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.min.js"></script>
+    <script src="../html/scripts/jquery.selector.js"></script>
+    <script src="./selector-test.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            ES6Promise.polyfill();
+
+            testSelector();
+        });
+    </script>
+</body>
+</html>
