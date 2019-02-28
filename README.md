@@ -1,4 +1,4 @@
-# js-linter
+# static-html-skeleton
 Skeleton project of static Javascript/HTML/SASS enforce with linter & performance aware.
 
 ### What included
