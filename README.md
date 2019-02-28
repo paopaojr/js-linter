@@ -2,7 +2,7 @@
 Skeleton project of static Javascript/HTML/SASS enforced with linters & performance aware.
 
 ### What included
-- ESlint for javscript
+- ESlint for javascript
 - SASSLint for SASS
 - HTMLLint for html
 - Unused css rules linter
